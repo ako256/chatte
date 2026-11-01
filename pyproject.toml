@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chatte"
+version = "1.0.0"
+description = "Native GNOME 50 AI Assistant (earth.dlc.Chatte) built with GTK4 and Libadwaita"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "GPL-3.0-or-later"}
+authors = [
+    {name = "DLC Earth", email = "dev@dlc.earth"}
+]
+dependencies = [
+    "PyGObject>=3.46.0",
+    "pycairo>=1.24.0",
+    "httpx>=0.25.0",
+    "html2text>=2020.1.16",
+    "PyYAML>=6.0",
+]
+
+[project.scripts]
+chatte = "chatte.app:main"
+
+[tool.setuptools.packages.find]
+include = ["chatte*"]
+
+[tool.setuptools.package-data]
+chatte = ["*.css"]
+

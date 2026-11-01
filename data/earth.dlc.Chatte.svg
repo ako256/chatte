@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="12" y1="10" x2="116" y2="118" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3584E4"/>
+      <stop offset="55%" stop-color="#613583"/>
+      <stop offset="100%" stop-color="#1C71D8"/>
+    </linearGradient>
+    <linearGradient id="bubbleGrad" x1="28" y1="28" x2="100" y2="96" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#DEDDDA"/>
+    </linearGradient>
+  </defs>
+  <rect x="10" y="10" width="108" height="108" rx="26" fill="url(#bgGrad)"/>
+  <path d="M32 38C32 31.3726 37.3726 26 44 26H84C90.6274 26 96 31.3726 96 38V68C96 74.6274 90.6274 80 84 80H56L38 96V80H44C37.3726 80 32 74.6274 32 68V38Z" fill="url(#bubbleGrad)"/>
+  <circle cx="50" cy="53" r="5.5" fill="#3584E4"/>
+  <circle cx="64" cy="53" r="5.5" fill="#613583"/>
+  <circle cx="78" cy="53" r="5.5" fill="#1C71D8"/>
+  <path d="M84 32L86.2 37.8L92 40L86.2 42.2L84 48L81.8 42.2L76 40L81.8 37.8L84 32Z" fill="#F6D32D"/>
+</svg>
+

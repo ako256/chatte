@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>earth.dlc.Chatte</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <name>Chatte</name>
+  <summary>Native GNOME 50 AI Assistant</summary>
+  <description>
+    <p>
+      Chatte is a pure native GNOME 50 desktop application built with GTK 4 and Libadwaita that connects directly to OpenAI, Anthropic, Ollama, and llama.cpp endpoints without any intermediary proxies or WebViews.
+    </p>
+    <ul>
+      <li>Direct provider connections with API keys stored securely in GNOME Keyring</li>
+      <li>Real-time token counting, sliding context windows, prompt caching, and idle local model auto-unloading</li>
+      <li>On-demand Markdown Skills, Structured Prompts, and Function Calling from the chatbox '+' menu</li>
+      <li>Built-in DuckDuckGo and Wikipedia Web Search with interactive inline citations</li>
+      <li>100% native Markdown, GtkSourceView 5 syntax highlighting, and PangoCairo LaTeX math rendering</li>
+      <li>Strictly local SQLite storage with automatic message edit branching and conversation forking</li>
+    </ul>
+  </description>
+  <launchable type="desktop-id">earth.dlc.Chatte.desktop</launchable>
+  <developer id="earth.dlc">
+    <name>DLC Earth</name>
+  </developer>
+  <content_rating type="oars-1.1" />
+  <releases>
+    <release version="1.0.0" date="2026-11-01" />
+  </releases>
+</component>
+

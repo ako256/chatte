@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Chatte
+Comment=Native GNOME AI Assistant with Direct Provider Connections, Branching, and Skills
+Exec=chatte
+Icon=earth.dlc.Chatte
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Utility;Chat;Development;Science;
+Keywords=AI;Chat;LLM;OpenAI;Anthropic;Ollama;Assistant;Markdown;LaTeX;
+StartupNotify=true
+StartupWMClass=earth.dlc.Chatte
+

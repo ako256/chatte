@@ -1,0 +1,282 @@
+/* Chatte (earth.dlc.Chatte) — Libadwaita 1.9 / GTK 4.22 Native Stylesheet */
+
+.sidebar-panel {
+    background-color: @sidebar_bg_color;
+    border-right: 1px solid alpha(@borders, 0.65);
+}
+
+.sidebar-header {
+    min-height: 46px;
+    padding: 0 4px;
+}
+
+.model-selector-btn {
+    color: alpha(@view_fg_color, 0.56);
+    font-weight: 600;
+    transition: color 150ms ease;
+}
+
+.model-selector-btn:hover,
+.model-selector-btn:active,
+.model-selector-btn:checked {
+    color: @view_fg_color;
+}
+
+.thought-expander {
+    color: alpha(@view_fg_color, 0.56);
+    margin-bottom: 12px;
+    padding: 4px 2px;
+}
+
+.thought-expander title {
+    color: alpha(@view_fg_color, 0.56);
+    font-size: 0.94em;
+}
+
+.thought-expander title:hover {
+    color: alpha(@view_fg_color, 0.82);
+}
+
+.thought-content {
+    color: alpha(@view_fg_color, 0.56);
+    padding: 8px 12px;
+    margin-top: 4px;
+    margin-bottom: 6px;
+    border-left: 2px solid alpha(@view_fg_color, 0.22);
+}
+
+.chat-scroll {
+    background-color: @window_bg_color;
+}
+
+.user-bubble {
+    background-color: alpha(@view_fg_color, 0.10);
+    border-radius: 20px;
+    padding: 10px 16px;
+}
+
+.assistant-message {
+    padding: 4px 2px;
+}
+
+.message-actions {
+    opacity: 0.65;
+    transition: opacity 150ms ease;
+}
+
+.message-actions:hover {
+    opacity: 1.0;
+}
+
+.message-action-btn {
+    min-height: 26px;
+    min-width: 26px;
+    padding: 2px;
+    border-radius: 6px;
+}
+
+.inline-chip {
+    background-color: alpha(@accent_bg_color, 0.15);
+    color: @accent_color;
+    border-radius: 999px;
+    padding: 2px 10px;
+    min-height: 26px;
+    font-size: 0.85em;
+    font-weight: 600;
+}
+
+.inline-chip:hover {
+    background-color: alpha(@accent_bg_color, 0.24);
+}
+
+.citations-flowbox flowboxchild {
+    padding: 0;
+    margin: 0;
+    border-radius: 999px;
+    background: transparent;
+    outline: none;
+    box-shadow: none;
+}
+
+.citations-flowbox flowboxchild:hover,
+.citations-flowbox flowboxchild:focus,
+.citations-flowbox flowboxchild:active {
+    background: transparent;
+    outline: none;
+    box-shadow: none;
+}
+
+button.citation-chip {
+    background-image: none;
+    background-color: alpha(@view_fg_color, 0.07);
+    border-radius: 999px;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    padding: 3px 10px;
+    font-size: 0.82em;
+}
+
+button.citation-chip:hover {
+    background-image: none;
+    background-color: alpha(@view_fg_color, 0.14);
+    border-radius: 999px;
+}
+
+button.para-citation-chip {
+    background-image: none;
+    background-color: alpha(@view_fg_color, 0.09);
+    color: alpha(@view_fg_color, 0.82);
+    border-radius: 999px;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    padding: 1px 9px;
+    min-height: 20px;
+    min-width: 0px;
+    font-size: 0.76em;
+    font-weight: 600;
+}
+
+button.para-citation-chip:hover,
+button.para-citation-chip:active {
+    background-image: none;
+    background-color: alpha(@view_fg_color, 0.17);
+    color: @view_fg_color;
+    border-radius: 999px;
+}
+
+.code-block-frame {
+    border-radius: 10px;
+    border: 1px solid alpha(@borders, 0.7);
+    background-color: @view_bg_color;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.code-block-header {
+    background-color: alpha(@headerbar_bg_color, 0.85);
+    padding: 6px 12px;
+    border-bottom: 1px solid alpha(@borders, 0.55);
+}
+
+.code-lang-label {
+    font-family: monospace;
+    font-size: 0.82em;
+    font-weight: 700;
+    opacity: 0.8;
+}
+
+.latex-block-frame {
+    border-radius: 10px;
+    background-color: alpha(@view_fg_color, 0.04);
+    padding: 10px 14px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.blockquote-box {
+    border-left: 3px solid @accent_bg_color;
+    background-color: alpha(@accent_bg_color, 0.05);
+    border-radius: 0 8px 8px 0;
+    padding: 8px 12px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.md-table-grid {
+    border: 1px solid alpha(@borders, 0.7);
+    border-radius: 8px;
+    background-color: @view_bg_color;
+}
+
+.md-table-header {
+    background-color: alpha(@view_fg_color, 0.08);
+    font-weight: 700;
+    padding: 8px 12px;
+    border-bottom: 1px solid alpha(@borders, 0.7);
+}
+
+.md-table-cell {
+    padding: 6px 12px;
+    border-bottom: 1px solid alpha(@borders, 0.35);
+}
+
+.composer-frame {
+    background-color: alpha(@view_fg_color, 0.07);
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-radius: 22px;
+    padding: 4px 6px;
+}
+
+.composer-textview {
+    background: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    font-size: 1.0em;
+}
+
+.composer-textview text {
+    background: transparent;
+}
+
+.composer-placeholder {
+    opacity: 0.48;
+    font-size: 1.0em;
+}
+
+.composer-icon-btn {
+    min-height: 30px;
+    min-width: 30px;
+    padding: 0;
+}
+
+.branch-switcher {
+    background-color: alpha(@view_fg_color, 0.06);
+    border-radius: 999px;
+    padding: 0px 4px;
+}
+
+.sidebar-chat-row {
+    border-radius: 8px;
+    margin: 2px 6px;
+    padding: 5px 8px;
+}
+
+.tool-call-box {
+    background-color: alpha(@view_fg_color, 0.04);
+    border-radius: 8px;
+    padding: 4px 8px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.header-context-bar {
+    min-width: 76px;
+}
+
+.plus-menu-item {
+    border-radius: 8px;
+    padding: 6px 10px;
+}
+
+.plus-menu-item:hover {
+    background-color: alpha(@view_fg_color, 0.08);
+}
+
+.waiting-dots-box {
+    padding: 6px 2px;
+}
+
+.waiting-dot {
+    color: alpha(@view_fg_color, 0.25);
+    font-size: 1.05em;
+    transition: color 200ms ease, opacity 200ms ease;
+}
+
+.waiting-dot-active {
+    color: alpha(@view_fg_color, 0.85);
+}
